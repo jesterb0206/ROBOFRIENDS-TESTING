@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import Scroll from './Scroll';
-import Errorboundary from './Errorboundary';
+import ErrorBoundary from './ErrorBoundary';
 import Header from './Header';
 
 export class MainPage extends Component {
@@ -29,9 +29,9 @@ export class MainPage extends Component {
           {isPending ? (
             <h1>Loading</h1>
           ) : (
-            <Errorboundary>
+            <ErrorBoundary>
               <CardList robots={this.filterRobots()} />
-            </Errorboundary>
+            </ErrorBoundary>
           )}
         </Scroll>
       </div>
