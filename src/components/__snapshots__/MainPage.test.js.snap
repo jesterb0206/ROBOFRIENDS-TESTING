@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Renders Without Crashing 1`] = `
 <div
   className="tc"
@@ -13,4 +15,3 @@ exports[`Renders Without Crashing 1`] = `
   </Scroll>
 </div>
 `;
- 

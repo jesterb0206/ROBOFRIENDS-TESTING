@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Renders Without Crashing 1`] = `
 <div
   className="tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5"
@@ -11,4 +13,4 @@ exports[`Renders Without Crashing 1`] = `
     <p />
   </div>
 </div>
-`; 
+`;
