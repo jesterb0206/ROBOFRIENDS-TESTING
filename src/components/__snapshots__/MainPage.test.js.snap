@@ -1,0 +1,16 @@
+exports[`Renders Without Crashing 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;
+ 

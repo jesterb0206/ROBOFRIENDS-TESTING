@@ -1,0 +1,11 @@
+exports[`Renders Without Crashing 1`] = `
+<div>
+  <Card
+    email="Sincere@april.biz"
+    id={1}
+    key="0"
+    name="Leanne Graham"
+  />
+</div>
+`;
+ 
